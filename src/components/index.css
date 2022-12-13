@@ -1,0 +1,90 @@
+.main{
+    background-color:rgb(230, 159, 27)
+}
+
+.main p{
+    color: white;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    gap: 40px;
+}
+
+.search-main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    gap: 40px;
+    align-items: center;
+}
+
+.search-part-1 {
+   flex: 2;
+   margin-left: 60px;
+}
+
+.search-part-2{
+    flex: 1;
+}
+
+.search-part-1 input{
+    width: 100%;
+outline: none;
+padding: 10px;
+border-radius: 6px;
+box-shadow: 0px 2px 2px aliceblue;
+}
+
+.search-part-1{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.search-part-1 form{
+    flex: 2;
+}
+
+.search-part-2{
+    margin-top: 20px;
+}
+
+.cel::before,.feh::before{
+    content: "\00B0";
+}
+
+.cel,.feh{
+    cursor: pointer;
+}
+
+
+.info-main{
+    margin-top: 50px;
+}
+
+.more-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.extra-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hourly-main{
+   /* background-color: red; */
+   margin-top: 60px;
+   padding-bottom: 50px;
+}
+
+.hour-line{
+    width: 100%;
+    height: 2px;
+  background-color: red;
+  margin-bottom: 20px;
+}
